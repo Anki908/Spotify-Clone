@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: wheat;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round' , 'sans-serif';
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    padding: 34px;
+    border-radius: 12px;
+    background-image: url('bg.jpg');
+    background-position: top;
+}
+
+.bottom{
+    position: sticky;
+    background-color: black;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin: 0 30px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    /* width: 80%; */
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    border-radius: 34px;
+    margin: 0 5px;
+}
+
+
+.songItem i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.songs{
+    margin: 60px 0;
+}
+
+.songi{
+    position: absolute;
+    left: 9.5vw;
+    font-family: 'Varela Round' , 'sans-serif';
+}
+
+.songi img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
